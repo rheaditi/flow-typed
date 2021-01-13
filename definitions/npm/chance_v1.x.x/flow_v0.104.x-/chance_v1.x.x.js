@@ -189,7 +189,7 @@ declare module 'chance' {
       ...
     }): Date;
     hammertime(): number;
-    hour(): number;
+    hour(options?: { twentyfour?: boolean }): number;
     millisecond(): number;
     minute(): number;
     month(options: { raw: true, ... }): {
